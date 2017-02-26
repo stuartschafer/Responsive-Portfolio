@@ -1,3 +1,5 @@
+/* THIS IS THE RATIO PART, PICS ARE IN PX, NOT % */
+
 body { font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	   margin: 0px;
 	   background-image: url("../images/hexellence.png"); }
@@ -132,7 +134,10 @@ h1, h3 { color: #4aaaa5;
 				   padding: 20px 0px 0px 15px;
 				   margin: 10px; }
 
-#hangmansection, #rpgsection, #triviasection, #rutgerssection, #rocksection {
+.work { position: relative;
+		float: left; }
+
+.title {
 	float: left;
 	background-color: #4aaaa5;
 	color: #ffffff;
@@ -140,19 +145,12 @@ h1, h3 { color: #4aaaa5;
 	font-size: 20px;
 	text-align: center;
 	position: absolute;
-	padding: 15px 0px 15px 0px;
+	padding: 10px 0px 10px 0px;
 	margin: 25px;
 	margin-top: 160px;
 	width: 275px; }
 
-#rpgsection { margin-left: 335px; }
 
-#triviasection { margin-top: 400px; }
-
-#rutgerssection { margin-top: 400px;
-				  margin-left: 335px; }
-
-#rocksection { margin-top: 640px; }
 
 footer { text-align: center;
 		 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -213,18 +211,9 @@ footer { text-align: center;
 						   height: 230px;
 						   padding-left: 10px;}
 
-		#hangmansection, #rpgsection, #triviasection, #rutgerssection, #rocksection {
-					width: 345px;
-					margin-left: 20px;
-					margin-top: 190px; }
-
-		#rpgsection { margin-top: 460px; }
-
-		#triviasection { margin-top: 730px; }
-
-		#rutgerssection { margin-top: 1000px; }
-
-		#rocksection { margin-top: 1270px; }
+		.title { width: 345px;
+				 margin-left: 20px;
+				 margin-top: 190px; }
 
 	 }
 
@@ -274,20 +263,9 @@ footer { text-align: center;
 						   height: 170px;
 						   padding-left: 10px; }
 
-		#hangmansection, #rpgsection, #triviasection, #rutgerssection, #rocksection {
-					width: 245px;
-					margin-left: 20px;
-					margin-top: 130px;}
-
-		#rpgsection { margin-left: 295px; }
-
-		#triviasection { margin-top: 340px;
-						 margin-left: 20px; }
-
-		#rutgerssection { margin-top: 340px;
-						  margin-left: 295px; }
-
-		#rocksection { margin-top: 550px; }
+		.title { width: 245px;
+				 margin-left: 20px;
+				 margin-top: 140px; }
 	 }
 
 
@@ -337,20 +315,9 @@ footer { text-align: center;
 						   margin-left: 20px;
 						   margin-right: 0px; }
 		
-		#hangmansection, #rpgsection, #triviasection, #rutgerssection, #rocksection {
-					width: 500px;
-					margin-left: 20px;
-					margin-top: 230px;
-					padding: 25px 0px 25px 0px; }
-
-		#rpgsection { margin-top: 570px; }
-
-		#triviasection { margin-top: 910px; }
-
-		#rutgerssection { margin-top: 1250px;
-						   }
-
-		#rocksection { margin-top: 1590px; }
+		.title { width: 500px;
+				 margin-left: 20px;
+				 margin-top: 250px; }
 
 
 
